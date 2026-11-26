@@ -110,7 +110,7 @@ for page in pages:
         h = h.replace("</title>", f'</title><link rel="canonical" href="{DOMAIN}{url_path.rstrip("/") or "/"}"/>', 1)
     h = h.replace('rel="stylesheet" type="text/css"/>',
                   f'rel="stylesheet" type="text/css"/><link href="{depth}assets/fonts/inter.css" rel="stylesheet"/>'
-                  f'<link href="{depth}assets/css/custom.css?v=2" rel="stylesheet"/>', 1)
+                  f'<link href="{depth}assets/css/custom.css?v=3" rel="stylesheet"/>', 1)
     page.write_text(h)
 
 # ---------- Elimina i file che nessuna pagina usa più ----------

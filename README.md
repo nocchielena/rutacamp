@@ -37,8 +37,8 @@ Meglio usare immagini larghe al massimo 2000 px, in formato `.webp` o `.jpg`.
 
 ## Dopo aver modificato custom.css
 
-Nelle pagine il file è richiamato come `custom.css?v=2`: dopo una modifica aumentare il numero
-(`?v=3`, …) in tutte le pagine, altrimenti i browser possono mostrare per un po' la versione vecchia.
+Nelle pagine il file è richiamato come `custom.css?v=3`: dopo una modifica aumentare il numero
+(`?v=4`, …) in tutte le pagine, altrimenti i browser possono mostrare per un po' la versione vecchia.
 
 ## Anteprima sul computer
 

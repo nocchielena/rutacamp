@@ -21,3 +21,8 @@ img { height: auto; }
   body:has(.section.hero) .main-nav-wrapper { background-color: #e87352; }
   body:has(.section.hero.hero-yellow) .main-nav-wrapper { background-color: #feb95f; }
 }
+
+/* Su schermi bassi il titolo finiva sotto la barra fissa (alta 90px) */
+@media screen and (max-width: 991px) {
+  .section.hero { padding-top: max(16vh, 120px); }
+}
