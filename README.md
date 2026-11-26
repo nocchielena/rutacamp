@@ -15,7 +15,7 @@ docs/      ← IL SITO. È questa la cartella che viene pubblicata e che si modi
   404.html                   pagina "non trovata"
   assets/css/                stile originale di Webflow + custom.css (correzioni nostre)
   assets/images/, fonts/, js/
-  CNAME                      dominio www.rutacamp.com
+  (CNAME)                    va aggiunto al passaggio del dominio, vedi sotto
 raw/       ← archivio: copia esatta scaricata da Webflow (immagini originali in alta risoluzione)
 tools/     ← script usati una volta per creare docs/ da raw/
 ```
@@ -52,3 +52,14 @@ poi aprire http://localhost:8080
 - I video Vimeo sono incorporati direttamente, senza passare da Embedly/Webflow.
 - Tolte le pagine di esempio del modello Webflow (`/work/…`, `/template/…`), non collegate da nessuna parte.
 - Aggiunti `sitemap.xml`, `robots.txt` e indirizzi canonici per Google.
+
+## Collegare il dominio www.rutacamp.com
+
+1. Su GitHub: **Settings → Pages → Custom domain**, scrivere `www.rutacamp.com` e salvare
+   (GitHub crea da solo il file `docs/CNAME`).
+2. Dal pannello del registrar del dominio, nella gestione DNS:
+   - record **CNAME** `www` → `nocchielena.github.io`
+   - record **A** per `@` (dominio senza www) → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+   - togliere i vecchi record che puntano a Webflow (`proxy-ssl.webflow.com` e gli IP di Webflow).
+3. Quando su Settings → Pages compare il segno verde, spuntare **Enforce HTTPS**.
+4. Solo dopo aver controllato che www.rutacamp.com mostri il nuovo sito, disdire l'abbonamento Webflow.

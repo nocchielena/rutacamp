@@ -121,7 +121,7 @@ for f in list((SITE / "assets/images").iterdir()):
         f.unlink()
 
 # ---------- File per la pubblicazione ----------
-(SITE / "CNAME").write_text("www.rutacamp.com\n")
+# CNAME: lo crea GitHub quando si imposta il dominio in Settings → Pages
 (SITE / ".nojekyll").write_text("")
 (SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
 urls = []
