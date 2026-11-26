@@ -14,3 +14,10 @@ img { height: auto; }
 @media screen and (max-width: 479px) {
   .heading-xlarge.hero-size { font-size: clamp(30px, 11vw, 45px); }
 }
+
+/* Barra del logo e del menu (telefono e tablet): stesso colore
+   dello sfondo in cima alla pagina, invece del bianco */
+@media screen and (max-width: 991px) {
+  body:has(.section.hero) .main-nav-wrapper { background-color: #e87352; }
+  body:has(.section.hero.hero-yellow) .main-nav-wrapper { background-color: #feb95f; }
+}
