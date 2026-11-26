@@ -57,9 +57,10 @@ poi aprire http://localhost:8080
 
 1. Su GitHub: **Settings → Pages → Custom domain**, scrivere `www.rutacamp.com` e salvare
    (GitHub crea da solo il file `docs/CNAME`).
-2. Dal pannello del registrar del dominio, nella gestione DNS:
+2. Il dominio è su **Aruba** (scadenza 2 marzo 2027). Da *Pannello Aruba → Gestione DNS* di rutacamp.com:
    - record **CNAME** `www` → `nocchielena.github.io`
    - record **A** per `@` (dominio senza www) → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - togliere i vecchi record che puntano a Webflow (`proxy-ssl.webflow.com` e gli IP di Webflow).
+   - togliere i vecchi record di Webflow: CNAME `www` → `cdn.webflow.com` e A `@` → `198.202.211.1`.
+   - **NON toccare i record MX** (`mx.rutacamp.com`): servono alla posta di info@rutacamp.com.
 3. Quando su Settings → Pages compare il segno verde, spuntare **Enforce HTTPS**.
 4. Solo dopo aver controllato che www.rutacamp.com mostri il nuovo sito, disdire l'abbonamento Webflow.
