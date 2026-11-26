@@ -1,0 +1,16 @@
+/* ============================================================
+   Aggiunte al CSS originale di Webflow (correzioni responsive)
+   ============================================================ */
+.w-webflow-badge { display: none !important; }
+img { height: auto; }
+
+/* Hero della home: su tablet/telefono le righe del titolo sono
+   posizionate su 6 colonne, ma la griglia ne aveva solo 2 */
+@media screen and (max-width: 991px) {
+  .section.hero .main-grid.no-gap { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .heading-xlarge.hero-size { font-size: clamp(34px, 11.5vw, 80px); }
+  .button-outline.hero-button { max-width: 100%; }
+}
+@media screen and (max-width: 479px) {
+  .heading-xlarge.hero-size { font-size: clamp(30px, 11vw, 45px); }
+}

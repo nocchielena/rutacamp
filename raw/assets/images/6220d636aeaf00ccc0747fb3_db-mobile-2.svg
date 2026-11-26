@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4796px" height="3155px" viewBox="0 0 4796 3155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <rect id="path-1" x="38" y="50" width="1116" height="2461" rx="122"></rect>
+        <rect id="path-3" x="38" y="50" width="1116" height="2461" rx="122"></rect>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#434343" x="0" y="0" width="4796" height="3155"></rect>
+        <g id="Group-8-Copy-12" transform="translate(1095.000000, 297.000000)">
+            <rect id="Rectangle-Copy-21" fill="#000000" x="0" y="0" width="1192.63714" height="2561" rx="161"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#CE1E81" xlink:href="#path-1"></use>
+            <path d="M864,22 L864.000876,36 L891.000876,36 L891.001164,50 L877.507587,50 L877.17471,50.0038797 C870.97852,50.1484557 865.77796,54.3187112 864.087204,60.0004713 L864,60.303 L864,82 C864,113.480231 838.480231,139 807,139 L384,139 C352.519769,139 327,113.480231 327,82 L327,60.303 L326.91396,60.0004713 C325.223205,54.3187112 320.022644,50.1484557 313.826454,50.0038797 L313.493577,50 L300,50 L300.000289,36 L327.000289,36 L327,22 L864,22 Z" id="Combined-Shape" fill="#000000"></path>
+        </g>
+        <g id="Group-8-Copy-13" transform="translate(2509.000000, 297.000000)">
+            <rect id="Rectangle-Copy-21" fill="#000000" x="0" y="0" width="1192.63714" height="2561" rx="161"></rect>
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Mask" fill="#F0372F" xlink:href="#path-3"></use>
+            <path d="M864,22 L864.000876,36 L891.000876,36 L891.001164,50 L877.507587,50 L877.17471,50.0038797 C870.97852,50.1484557 865.77796,54.3187112 864.087204,60.0004713 L864,60.303 L864,82 C864,113.480231 838.480231,139 807,139 L384,139 C352.519769,139 327,113.480231 327,82 L327,60.303 L326.91396,60.0004713 C325.223205,54.3187112 320.022644,50.1484557 313.826454,50.0038797 L313.493577,50 L300,50 L300.000289,36 L327.000289,36 L327,22 L864,22 Z" id="Combined-Shape" fill="#000000"></path>
+        </g>
+        <path d="M2903,1138 C3126.12304,1138 3307,1299.40135 3307,1498.5 C3307,1697.59865 3126.12304,1859 2903,1859 L2903,1859 Z" id="Combined-Shape-Copy-2" fill="#FFFFFF"></path>
+        <path d="M1489,1138 C1712.12304,1138 1893,1299.40135 1893,1498.5 C1893,1697.59865 1712.12304,1859 1489,1859 L1489,1859 Z" id="Combined-Shape-Copy-3" fill="#FFFFFF"></path>
+    </g>
+</svg>
